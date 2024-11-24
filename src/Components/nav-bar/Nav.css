@@ -1,0 +1,14 @@
+  #nav-bar {
+    background-color: #c5fffb;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  }
+    .navbar{
+      
+      align-items:flex-end;
+    }
+  
+    .mx-auto {
+    gap: 50px;
+  }
+
+  

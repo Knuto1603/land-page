@@ -1,0 +1,40 @@
+.App {
+  text-align: center;  
+}
+
+/* Estilo general para ambos headers */
+.header {
+  padding: 5px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+}
+
+/* Header para escritorio (visible en pantallas grandes) */
+.header-desktop {
+  display: block; /* Visible en pantallas grandes */
+}
+
+.header-mobile {
+  display: none; /* Oculto en pantallas grandes */
+}
+
+/* Header para móvil (visible en pantallas pequeñas) */
+@media (max-width: 797px) { /* 768px es un punto de quiebre común */
+  .header-desktop {
+    display: none; /* Oculto en pantallas pequeñas */
+  }
+  .header-mobile {
+    display: block; /* Visible en pantallas pequeñas */
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

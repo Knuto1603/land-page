@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#banner {
+    position: relative;
+    background-color: #fdd0f8;
+    display: flex; /* Habilita Flexbox en el contenedor */
+    flex-direction: column; /* Alinea elementos en columna */
+    justify-content: center; /* Centra los hijos verticalmente */
+    align-items: center;
+    padding: 10px;
+}
+
+#banner::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background: repeating-linear-gradient(to right,
+        /* Dirección del degradado */
+        #c5fffb 0px,
+        /* Celeste inicia */
+        #c5fffb 20px,
+        /* Celeste termina */
+        #fdd0f8 20px,
+        /* Rosa inicia */
+        #fdd0f8 40px
+        /* Rosa termina */
+      );
+    height: 20px;
+    width: 100%;
+    
+  }
+
+
+.separador {
+    position: absolute; /* Posición absoluta dentro del contenedor relativo */
+    bottom: 0; /* Fija el borde inferior */
+    background: repeating-linear-gradient(
+        to right,           /* Dirección del degradado */
+        #c5fffb 0px,        /* Celeste inicia */
+        #c5fffb 20px,       /* Celeste termina */
+        #fdd0f8 20px,       /* Rosa inicia */
+        #fdd0f8 40px       /* Rosa termina */
+      );
+    height: 20px;
+    width: 100%
+    
+}
+
+.alinear-horinzontal {
+    /*position: relative;*/
+    display: flex; /* Para alinear el logo y el texto horizontalmente */
+    justify-content: center;
+    align-items: center; /* Alinear verticalmente */
+    gap: 2rem; /* Espaciado entre el logo y el texto */
+}
+
+.separar-horinzontal-50{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.brand-logo {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 2rem;
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    /* Cambia el color si es necesario */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    /* Sombra opcional */
+}
+
+.brand:hover {
+    opacity: 0.7;
+    /* Efecto al pasar el mouse (opcional) */
+}
+
+.logo {
+    width: 8rem;
+    /* Ancho del logo */
+    height: 8rem;
+    /* Alto del logo */
+    background-image: url('/src/assets/logo.png');
+    /* Ruta relativa al archivo CSS */
+    background-size: cover;
+    /* Ajusta el tamaño del logo */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que se repita */
+
+}
+
+.icon-style{
+    font-size: 1.8em; /* Ajusta el tamaño deseado */
+    color: #4b4b4b; /* Cambia el color a negro */
+    text-decoration: none;    
+}
+
+.icon-style:hover{
+    opacity: 0.8;
+}
+
+.facebook:hover{
+    color: #0866ff; 
+}
+
+.whatsapp:hover{
+    color: #1daa61; 
+}
+
+.instagram:hover{
+    color: #f94600; 
+}
+
+.heart:hover{
+    color:red;
+}
+
+.no-style {
+    color: #ff7abd;
+    /* Cambia el color a negro */
+    text-decoration: none;
+}
