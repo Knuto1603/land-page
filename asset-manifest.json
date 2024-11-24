@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/land-page.git/static/css/main.40da3e72.css",
+    "main.js": "/land-page.git/static/js/main.ed9ea6de.js",
+    "static/js/453.3ab3e0a8.chunk.js": "/land-page.git/static/js/453.3ab3e0a8.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/land-page.git/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/land-page.git/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/logo.png": "/land-page.git/static/media/logo.ab35998d8eefe119db12.png",
+    "index.html": "/land-page.git/index.html",
+    "main.40da3e72.css.map": "/land-page.git/static/css/main.40da3e72.css.map",
+    "main.ed9ea6de.js.map": "/land-page.git/static/js/main.ed9ea6de.js.map",
+    "453.3ab3e0a8.chunk.js.map": "/land-page.git/static/js/453.3ab3e0a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40da3e72.css",
+    "static/js/main.ed9ea6de.js"
+  ]
+}
